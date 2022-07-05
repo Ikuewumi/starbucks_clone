@@ -272,7 +272,9 @@
       const menumenuBtn = document.querySelector('.menu_menu');
       const menubackBtn = document.querySelector('ul#menu li#back svg');
       const menumenu = document.querySelector('ul#menu');
-      const menu = document.querySelector('nav.mobile')
+      const menu = document.querySelector('nav.mobile');
+      const height = window.innerHeight - header.innerHeight
+      document.body.style.setProperty('--nav', `${height}px`);
       menuBtn.addEventListener('click', _ => {
          menu.classList.toggle('open')
          document.body.classList.toggle('open');
