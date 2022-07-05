@@ -13,7 +13,7 @@
    --l: #F2F0EB;
    --w: #fff;
    --b: #000;
-   --nav: calc(100vh - 15vh);
+   --nav: calc(100vh - 20vh);
 }
 
 body {
